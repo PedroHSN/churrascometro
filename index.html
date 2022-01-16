@@ -6,16 +6,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Churrascômetro</title>
+  
 </head>
 <body>
+  
   <div class="container">
-    <h1 id="titulo">Churrascômetro</h1>
-    <input type="number" name="adultos" id="adultos" placeholder="Adultos">
-    <input type="number" name="criancas" id="criancas" placeholder="Crianças">
-    <input type="number" name="duracao" id="duracao" placeholder="Duração">
-    <button onclick="calcular()">Calcular</button>
+      <div id="grid">
+          <!--texto e imagem  -->
+      <div class="text-content">
+        <h1>Saiba quanta comida e bebida vai precisar!</h1>
+        <img id="imagem" src="imgs/6505.png" alt="">
+      </div>
 
-    <div id="resultado">
+      <!-- Container lado direito -->
+      <div class="container-box">
+        <h2 id="titulo">Churrascômetro</h2>
+        <div class="input-block">
+          <label for="adultos">Quantos adultos?</label>
+          <input type="number" name="adultos" id="adultos" placeholder="Adultos">
+        </div>
+        <div class="input-block">
+          <label for="criancas">Quantas crianças?</label>
+          <input type="number" name="criancas" id="criancas" placeholder="Crianças">
+        </div>
+        <div class="input-block">
+          <label for="duracao">Quanto tempo de churrasco?</label>
+          <input type="number" name="duracao" id="duracao" placeholder="Duração">
+        </div>
+        <button onclick="calcular()">Calcular</button>
+
+        <div id="resultado"></div>
+      </div>
     </div>
   </div>
 
