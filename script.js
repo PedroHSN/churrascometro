@@ -14,10 +14,10 @@ function calcular(){
   let quantidadeTotalCerveja =  cervejaPessoa(duracao.value) * adultos; 
   let quantidadeTotalBebidas =  bebidasPessoa(duracao.value) * adultos + (bebidasPessoa(duracao) / 2 * criancas); 
 
-  resultado.innerHTML = `<p id="voce"><strong>Você vai precisar de:<strong></p>`
-  resultado.innerHTML += `<p> ${quantidadeTotalCarne / 1000} Kg de carne</p>`
-  resultado.innerHTML += `<p> ${Math.ceil(quantidadeTotalCerveja/355)} Latas de cerveja</p>`
-  resultado.innerHTML += `<p> ${Math.ceil(quantidadeTotalBebidas/2000)} Garrafas de 2L</p>`
+  resultado.innerHTML = `<h3 class="inner" id="resposta"><strong>Você vai precisar de:<strong></h3>`
+  resultado.innerHTML += `<p class="inner"> ${quantidadeTotalCarne / 1000} Kg de carne</p>`
+  resultado.innerHTML += `<p class="inner"> ${Math.ceil(quantidadeTotalCerveja/355)} Latas de cerveja</p>`
+  resultado.innerHTML += `<p class="inner"> ${Math.ceil(quantidadeTotalBebidas/2000)} Garrafas de 2L</p>`
 }
 
 function carnePessoa(duracao){

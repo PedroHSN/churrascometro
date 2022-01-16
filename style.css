@@ -15,10 +15,6 @@ h2 {
   font-size: 2rem;
 }
 
-p {
-  font-size: 2rem;
-}
-
 label {
   font-size: 2rem;
 }
@@ -66,6 +62,7 @@ button {
   align-items: center;
   background-color: #06BFAD;
   height: 100vh;
+  border-radius: 20px 0 0 20px;
 }
 
 #titulo{
@@ -97,18 +94,26 @@ button {
 }
 
 button{
-  background-color:#4b938d ;
+  background-color:#fff ;
   padding: 15px 50px;
+  margin: 2rem;
   border-radius: 30px;
   border-style: none;
   opacity: 0.9;
-  color: #68fff2;
-  
+  color: rgb(32, 32, 32);
+  cursor: pointer;
 }
 button:hover{
   transition: transform 5s ease;
   background-color: #f3f8ff;
   color: black;
   transition-delay: 0.4s;
-  
+}
+
+.inner{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+#resposta{
+  font-size: 4rem;
 }
