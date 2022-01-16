@@ -4,7 +4,7 @@
    Projeto desenvolvido no curso do ProgBR
 </div>
 <p align="center">
-  <img alt="mockup" src="imgs/mockup.png" width="100%">
+  <img alt="mockup" src="churrascometro/imgs/mockup.PNG" width="100%">
 </p>
 
 <p align="center">
