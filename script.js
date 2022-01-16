@@ -5,7 +5,6 @@ let inputDuracao = document.getElementById("duracao");
 let resultado = document.getElementById("resultado");
 
 function calcular(){
-  console.log("calculado")
 
   let adultos = inputAdultos.value;
   let criancas = inputCriancas.value;
@@ -15,8 +14,8 @@ function calcular(){
   let quantidadeTotalCerveja =  cervejaPessoa(duracao.value) * adultos; 
   let quantidadeTotalBebidas =  bebidasPessoa(duracao.value) * adultos + (bebidasPessoa(duracao) / 2 * criancas); 
 
-
-  resultado.innerHTML = `<p> ${quantidadeTotalCarne / 1000} Kg de carne</p>`
+  resultado.innerHTML = `<p id="voce"><strong>Você vai precisar de:<strong></p>`
+  resultado.innerHTML += `<p> ${quantidadeTotalCarne / 1000} Kg de carne</p>`
   resultado.innerHTML += `<p> ${Math.ceil(quantidadeTotalCerveja/355)} Latas de cerveja</p>`
   resultado.innerHTML += `<p> ${Math.ceil(quantidadeTotalBebidas/2000)} Garrafas de 2L</p>`
 }
