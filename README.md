@@ -1,10 +1,13 @@
-<p align="center">Churrascômetro</p>
+<p align="center">
+   <img  align="center" alt="churrasqueira" src="https://user-images.githubusercontent.com/50461707/149682885-edb50f43-78c0-46ff-a59b-7694bddee2fc.png" width="24px">
+   Churrascômetro</p>
 
 <div align="center">
    Projeto desenvolvido no curso do ProgBR
-</div>
+</div><br>
+
 <p align="center">
-  <img alt="mockup" src="churrascometro/imgs/mockup.PNG" width="100%">
+  <img alt="mockup" src="https://user-images.githubusercontent.com/50461707/149682526-03166055-2b10-4952-9206-c7d0b777274f.PNG" width="100%">
 </p>
 
 <p align="center">
